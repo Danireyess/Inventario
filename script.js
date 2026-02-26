@@ -51,7 +51,7 @@ formulario.addEventListener("submit", function(evento) {
     const codigo = document.getElementById("codigo").value;
     const nombre = document.getElementById("nombre").value;
     const marca = document.getElementById("marca").value;
-    // Usamos parseFloat y parseInt para convertir el texto a números reales
+    // parseFloat y parseInt = texto a números reales
     const cantidad = parseInt(document.getElementById("cantidad").value);
     const costo = parseFloat(document.getElementById("costo").value);
 
@@ -73,4 +73,5 @@ formulario.addEventListener("submit", function(evento) {
     if (seGuardo) {
         formulario.reset(); // reset() limpia todos los campos del formulario
     }
+
 });
